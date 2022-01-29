@@ -1,0 +1,486 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* INDEX!!!!!!!!!! */
+
+
+        #indexpage{
+            background-image: url(assets/home/background-home-desktop.jpg);
+            background-size: cover;
+            margin: 0;
+        }
+
+    /* Navigation bar */
+
+        .navbar{
+            margin: 2rem 0 0 0;
+        }
+
+        .nopad{
+            padding: 0;
+        }
+
+        .listblur{
+            margin-right: 0;
+            margin-left: 31.2rem;
+            padding: 1.3rem 11.5rem 1.3rem 7rem;
+            backdrop-filter: blur(30px);
+        }
+
+        .relpos{
+            position: relative;
+        }
+
+        .h{
+            position: absolute;
+            width: 520px;
+            height: 1px;
+            top: 40px;
+            background: #FFFFFF;
+            mix-blend-mode: normal;
+            z-index: 1;
+        }
+
+        .navbar-dark .navbar-nav .nav-link{
+            line-height: 1rem;
+            word-spacing: 0.1rem;
+            letter-spacing: 2px;
+            color: #D0D6F9;
+        }
+
+        .nav-link{
+            font-family: 'Barlow Condensed', sans-serif;
+            margin: 0 1.5rem;
+        }
+
+        .iconalign{
+            padding: 0 1rem 0 3rem;
+        }
+
+        .numdiffcolor{
+            color:white;
+            font-weight: bold;
+        }
+
+        .nav-item a.active{
+            color: white;
+            position: relative;
+            border-bottom: 3px solid white;
+        }
+
+        .nav-item a:hover{
+            color: white;
+        }
+
+        .hover-underline-animation{
+            display: inline-block;
+            position: relative;
+            top: 1px;
+            color: white;
+        }
+
+        .hover-underline-animation:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 3px;
+            bottom: -3px;
+            left: 0;
+            background-color: white;
+            transform-origin: bottom right;
+            transition: transform 0.25s ease-out;
+        }
+        
+        .hover-underline-animation:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+        }
+
+    /* Content */
+
+        .p1style{
+            margin-top: 8rem;
+            margin-left: 10rem;
+            color: #D0D6F9;
+            font-family: 'Barlow Condensed', sans-serif;
+            font-size: 28px;
+            line-height: 33.6px;
+            letter-spacing: 4.72px;
+        }
+
+        .p2style{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 150px;
+            line-height: 172px;
+            font-family: 'Bellefair', serif;
+            color: white;
+            margin-left: 10rem;
+        }
+
+        .p3style{
+            font-family: Barlow;
+            font-size: 18px;
+            line-height: 32px;
+            color: #D0D6F9;
+            text-align: left;
+            display: inline-block;
+            width: 60%;
+            margin-left: 10rem;
+        }
+
+        .row{
+            margin-right: 0;
+        }
+
+        .roundstyle{
+            position: absolute;
+            width: 274px;
+            height: 274px;
+            left: 1001px;
+            top: 300px;
+            background-color: white;
+            border: white;
+            border-radius: 50%;
+        }
+
+        .textstyle{
+            background-color: white;
+            position: absolute;
+            height: 37px;
+            left: 22.63%;
+            right: 23.36%;
+            top: calc(50% - 37px/2 + 0.5px);
+            font-family: Bellefair;
+            font-size: 32px;
+            line-height: 37px;
+            letter-spacing: 2px;
+            color: #0B0D17;
+        }
+
+        .pop{
+            -moz-transition: 0.3s;
+            -webkit-transition: 0.3s;
+            transition: 0.5s;
+        }
+
+        .pop:hover{
+            transform: scale(1.06);
+        }
+
+
+/* DESTINATION PAGE */
+
+
+    #destination{
+        position: relative;
+        background-image: url("assets/destination/background-destination-desktop.jpg");
+    }
+
+    /* CONTENTS */
+
+        .leftdeste{
+            position: absolute;
+            height: 34px;
+            left: 180px;
+            top: 110px;
+            font-family: Barlow Condensed;
+            font-size: 28px;
+            line-height: 34px;
+            letter-spacing: 4.725px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        .numdestleft{
+            position: absolute;
+            height: 34px;
+            left: 130px;
+            top: 110px;
+            font-family: Barlow Condensed;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 34px;
+            letter-spacing: 4.725px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.25
+        }
+
+        .desteimgalign{
+            margin-top: 7.5rem;
+            margin-left: 15rem;
+        }
+
+        .ulli {
+            display: inline-block;
+        }
+
+        .nav-link{
+            color: #D0D6F9;
+        }
+
+        .europastyle{
+            font-family: Bellefair;
+            font-size: 100px;
+            line-height: 115px;
+            color: #FFFFFF;
+            margin-left: 3.5rem;
+            margin-top: 3rem;
+        }
+
+        .eutextstyle{
+            color: #D0D6F9;
+            font-family: Barlow;
+            width: 60%;
+            margin-left: 3rem;
+            font-size: 18px;
+            line-height: 32px;
+        }
+
+        div > hr{
+            background-color: #D0D6F9;
+            width: 60%;
+            margin-left: 3rem;
+            margin-top: 2rem;
+        }
+
+        table{
+            margin-top: 3rem;
+            margin-left: 3rem;
+        }
+
+        .tr1{
+            font-family: Barlow Condensed;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 2.3625px;
+            text-transform: uppercase;
+            color: #D0D6F9;
+        }
+
+        .tr2{
+            font-family: Bellefair;
+            font-size: 28px;
+            line-height: 32px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        td{
+            padding: 0 4rem 0.7rem 0;
+        }
+
+
+/* CREW */
+
+    
+    #crewpage{
+        position: relative;
+        background-image: url(assets/crew/background-crew-desktop.jpg);
+        background-size: cover;
+    }
+
+    /* CONTENT  */
+
+        .crewnumstyle{
+            position: absolute;
+            height: 34px;
+            left: 130px;
+            top: 110px;
+            font-family: Barlow Condensed;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 34px;
+            letter-spacing: 4.725px;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.25
+        }
+
+        .crewheadingstyle{
+            position: absolute;
+            height: 34px;
+            left: 180px;
+            top: 110px;
+            font-family: Barlow Condensed;
+            font-size: 28px;
+            line-height: 34px;
+            letter-spacing: 4.725px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        .carimg1{
+            width:56%;
+            margin-left: 5rem;
+            margin-top: 2.5rem;
+        }
+
+        .carimg2{
+            width: 50%;
+            margin-left: 5.5rem;
+            margin-top: 3rem;
+        }
+
+        .carimg3{
+            width: 63%;
+            margin-top: 4rem;
+            margin-left: 2rem;
+        }
+
+        .carimg4{
+            width: 70%;
+            margin-top: 3rem;
+            margin-left: 2rem;
+        }
+
+        .carcrewhead{
+            position: absolute;
+            height: 37px;
+            left: 165.5px;
+            top: 170px;
+            font-family: Bellefair;
+            font-size: 32px;
+            line-height: 37px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.5;
+        }
+
+        .carcrewname{
+            position: absolute;
+            height: 64px;
+            left: 165.5px;
+            top: 230px;
+            font-family: Bellefair;
+            font-size: 56px;
+            line-height: 64px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        .carcrewtext{
+            position: absolute;
+            width: 444px;
+            height: 128px;
+            left: 165px;
+            top: 320px;
+            font-family: Barlow;
+            font-size: 18px;
+            line-height: 32px;
+            color: #D0D6F9;
+        }
+        
+
+        .carousel-indicators [data-bs-target] {
+            box-sizing: content-box;
+            flex: 0 1 auto;
+            width: 13px; /* change width */
+            height: 13px; /* change height */
+            padding-right: 0.1rem;
+            margin-right: 16px;
+            text-indent: -999px;
+            cursor: pointer;
+            border: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            opacity: .3;
+            transition: opacity .6s ease;
+            border-radius: 100%;  /* add border-radius */
+        }
+
+        .carbuttonalign{
+            margin-left: 0px;
+            margin-right: 1078px;
+            margin-bottom: 80px;
+        }
+
+        .carousel-indicators .active {
+            opacity: 1;
+        }
+
+
+/* TECHNOLOGY */
+
+        #techpage{
+            position: relative;
+            background-image: url("assets/technology/background-technology-desktop.jpg");
+            background-size: cover;
+        }
+
+        /* CONTENT */
+
+            .listrounding{
+                position: absolute;
+                left: 9rem;
+                top: 15.5rem;
+                list-style-type: none;
+            }
+
+            a > button{
+                color: white;
+                font-family: Bellefair;
+                font-size: 32px;
+                line-height: 37px;
+                text-align: center;
+                letter-spacing: 2px;
+                width: 80px;
+                height: 80px;
+                margin-bottom: 2.5rem;
+                background-color: black;
+                border: 1px solid #D0D6F9;
+                border-radius: 100%;
+            }
+
+            a > button.active{
+                color: black;
+                background-color: white;
+            }
+
+            a > button:hover{
+                border: 3px solid white;
+                transition: 0.1s ease-in;
+            }
+
+            .techhead{
+                position: absolute;
+                left: 21rem;
+                top: 15.5rem;
+                font-family: Barlow Condensed;
+                font-size: 16px;
+                line-height: 19px;
+                letter-spacing: 2.7px;
+                color: #D0D6F9;
+            }
+
+            .techtitle{
+                position: absolute;
+                left: 21.1rem;
+                top: 18rem;
+                font-family: Bellefair;
+                font-size: 56px;
+                line-height: 64px;
+                color: #FFFFFF;
+            }
+
+            .techtext{
+                position: absolute;
+                left: 21rem;
+                top: 23rem;
+                font-family: Barlow;
+                font-size: 18px;
+                line-height: 32px;
+                color: #D0D6F9;
+                width: 30%;
+            }
+
+            .imgalign{
+                position: absolute;
+                left: 70rem;
+                top: 10rem;
+                width: 30%;
+            }
